@@ -1,6 +1,5 @@
 
-gg.makeRequest("https://vpn.uibe.edu.cn/por/phone_index.csp?rnd=0.23178949332658605#https%3A%2F%2Fvpn.uibe.edu.cn%2F");
-gg.alert("❗️ฮั่นแน่~ทำไรครับ\n⚠ กรุณาปิด VPN\n⚠ Turn Off VPN\n❗️Fuck Http Capturing")
+
 
 gg.alert(os.date" 📢 อัพเดทสคริปต์เมื่อ %d / %m / %Y เขียนสคริปต์โดย 𝐖𝐈𝐍𝐇𝐀𝐂𝐊")
 
