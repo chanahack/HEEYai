@@ -1,10 +1,16 @@
 
 
 
+
+
+
+
+
+
+
 gg.alert(os.date" 📢 อัพเดทสคริปต์เมื่อ %d / %m / %Y เขียนสคริปต์โดย 𝐖𝐈𝐍𝐇𝐀𝐂𝐊")
 
-
-gg.alert(" \n📢 𝐂𝐑𝐄𝐃𝐈𝐓  ::   𝐖𝐈𝐍𝐇𝐀𝐂𝐊 ❤ \n \n📢 𝐒𝐓𝐀𝐓𝐔𝐒  ::   𝐖𝐎𝐑𝐊 ✅ \n \n📢 𝐆𝐀𝐌𝐄 ​::  LINERANGER 10.2.0 🎮 \n ")
+gg.alert(" \n📢 𝐂𝐑𝐄𝐃𝐈𝐓  ::   𝐖𝐈𝐍𝐇𝐀𝐂𝐊 ❤ \n \n📢 𝐒𝐓𝐀𝐓𝐔𝐒  ::   𝐖𝐎𝐑𝐊 ✅ \n \n📢 𝐆𝐀𝐌𝐄 ​::  LINERANGER 10.2.1 🎮 \n ")
 gg.toast(" 🆆")
     gg.sleep(200)
     gg.toast("🆆🅸")
@@ -22,12 +28,12 @@ gg.toast(" 🆆")
 	gg.toast("❤ 𝐄𝐍𝐉𝐎𝐘 𝐊𝐔𝐁 ❤")
 
 
-if gg.getTargetPackage() ~= "com.linecorp.LGRGS" then
-gg.setVisible(false)
-gg.alert("						🔔 ❗เลือกเกมก่อนนะครับ❗  🔔")
+--if gg.getTargetPackage() ~= "com.linecorp.LGRGS" then
+--gg.setVisible(false)
+--gg.alert("						🔔 ❗เลือกเกมก่อนนะครับ❗  🔔")
 --os.exit(0)
-gg.processKill()
-end
+--gg.processKill()
+--end
 
 
 function gg.setMemory(lib,address,flags,value)
@@ -116,10 +122,11 @@ local menu = gg.multiChoice({
 	btn_14.."  เลือดป้อม999", --[14]
 	btn_15.."  สเตจวิ่ง ", --[15]
 	btn_16.."  ออกเกมส์ ", --[16]
+	
 				" 🔚 ออกจากสคริปต์ " --[17]
 	}, nil,os.date([[
-[🎮] ʜᴀᴄᴋ ʟɪɴᴇ ʀᴀɴɢᴇʀs ᴠ10.2.0
-[🛡️] sᴄʀɪᴘᴛ ʙʏ : ᴡɪɴʜᴀᴄᴋ 
+[🎮] ʜᴀᴄᴋ ʟɪɴᴇ ʀᴀɴɢᴇʀs ᴠ10.2.1
+[🛡️] sᴄʀɪᴘᴛ ʙʏ : ɪᴍꜱᴀᴅ6420 
 [🗓]ᴛᴏᴅᴀʏ %d - %m - %Y 
 ]]))
 if (menu == nil) then else
@@ -148,7 +155,7 @@ end --HOME
 
 
 -- ปล่อยตัว 0 วิ 
-local Hack_1 = gg.setMemory("libgame.so", 0x4ABB9C, gg.TYPE_FLOAT, "-30")
+local Hack_1 = gg.setMemory("libgame.so", 0x4ABC34, gg.TYPE_FLOAT, "-30")
 btn_1 = "[ 🔵 ]"
 function MENU1()
 if (btn_1 == "[ 🔵 ]") then
@@ -165,7 +172,7 @@ end
 end--MENU1
 ---------------------------------------------------------------------------------------------
 -- ตีเเรง
-local Hack_2 = gg.setMemory("libgame.so", 0x7AC9F8, gg.TYPE_FLOAT, "9999999")
+local Hack_2 = gg.setMemory("libgame.so", 0x7ACD5C, gg.TYPE_FLOAT, "9999999")
 btn_2 = "[ 🔵 ]"
 function MENU2()
 if (btn_2 == "[ 🔵 ]") then
@@ -182,7 +189,7 @@ end
 end--MENU2
 ---------------------------------------------------------------------------------------------
 -- ตีป้อมทีเดียว
-local Hack_3 = gg.setMemory("libgame.so", 0x4B0268, gg.TYPE_FLOAT, "9999")
+local Hack_3 = gg.setMemory("libgame.so", 0x4B0300, gg.TYPE_FLOAT, "9999")
 btn_3 = "[ 🔵 ]"
 function MENU3()
 if (btn_3 == "[ 🔵 ]") then
@@ -199,7 +206,7 @@ end
 end--MENU3
 ---------------------------------------------------------------------------------------------
 -- ตายออโต้
-local Hack_4 = gg.setMemory("libgame.so", 0x561F14, gg.TYPE_FLOAT, "9999999")
+local Hack_4 = gg.setMemory("libgame.so", 0x5621A4, gg.TYPE_FLOAT, "9999999")
 btn_4 = "[ 🔵 ]"
 function MENU4()
 if (btn_4 == "[ 🔵 ]") then
@@ -216,7 +223,7 @@ end
 end--MENU4
 ---------------------------------------------------------------------------------------------
 -- จรวด
-local Hack_5 = gg.setMemory("libgame.so", 0x51BC8C, gg.TYPE_FLOAT, "-9999999")
+local Hack_5 = gg.setMemory("libgame.so", 0x51BFAC, gg.TYPE_FLOAT, "-9999999")
 btn_5 = "[ 🔵 ]"
 function MENU5()
 if (btn_5 == "[ 🔵 ]") then
@@ -233,7 +240,7 @@ end
 end--MENU5
 ---------------------------------------------------------------------------------------------
 -- เเม่นยำ
-local Hack_6 = gg.setMemory("libgame.so", 0x8D7BE8, gg.TYPE_FLOAT, "10000")
+local Hack_6 = gg.setMemory("libgame.so", 0x8D7F50, gg.TYPE_FLOAT, "10000")
 btn_6 = "[ 🔵 ]"
 function MENU6()
 if (btn_6 == "[ 🔵 ]") then
@@ -267,7 +274,7 @@ end
 end--MENU7
 ---------------------------------------------------------------------------------------------
 -- ตัวไม่ออก
-local Hack_8 = gg.setMemory("libgame.so", 0x5096E8, gg.TYPE_FLOAT, "0")
+local Hack_8 = gg.setMemory("libgame.so", 0x509A08, gg.TYPE_FLOAT, "0")
 btn_8 = "[ 🔵 ]"
 function MENU8()
 if (btn_8 == "[ 🔵 ]") then
@@ -284,7 +291,7 @@ end
 end--MENU8
 ---------------------------------------------------------------------------------------------
 -- วาปไปหน้าป้อม
-local Hack_9 = gg.setMemory("libgame.so", 0x4AF374, gg.TYPE_FLOAT, "-1100")
+local Hack_9 = gg.setMemory("libgame.so", 0x4AF40C, gg.TYPE_FLOAT, "-1100")
 btn_9 = "[ 🔵 ]"
 function MENU9()
 if (btn_9 == "[ 🔵 ]") then
@@ -301,7 +308,7 @@ end
 end--MENU9
 ---------------------------------------------------------------------------------------------
 -- กันรายงาน
-local Hack_10 = gg.setMemory("libgame.so", 0x130F74C, gg.TYPE_FLOAT, "1.40129846e-40")
+local Hack_10 = gg.setMemory("libgame.so", 0x130FADC, gg.TYPE_FLOAT, "1.40129846e-40")
 btn_10 = "[ 🔵 ]"
 function MENU10()
 if (btn_10 == "[ 🔵 ]") then
@@ -335,7 +342,7 @@ end
 end--MENU11
 ---------------------------------------------------------------------------------------------
 -- เร่งเวลา 5
-local Hack_12 = gg.setMemory("libgame.so", 0xC34EEC, gg.TYPE_FLOAT, "0.4")
+local Hack_12 = gg.setMemory("libgame.so", 0xC35234, gg.TYPE_FLOAT, "0.4")
 btn_12 = "[ 🔵 ]"
 function MENU12()
 if (btn_12 == "[ 🔵 ]") then
@@ -352,7 +359,7 @@ end
 end--MENU12
 ---------------------------------------------------------------------------------------------
 -- เร่งเวลา 10
-local Hack_13 = gg.setMemory("libgame.so", 0xC34EEC, gg.TYPE_FLOAT, "0.2")
+local Hack_13 = gg.setMemory("libgame.so", 0xC35234, gg.TYPE_FLOAT, "0.2")
 btn_13 = "[ 🔵 ]"
 function MENU13()
 if (btn_13 == "[ 🔵 ]") then
@@ -369,7 +376,7 @@ end
 end--MENU13
 ---------------------------------------------------------------------------------------------
 -- เลือดป้อม999
-local Hack_14 = gg.setMemory("libgame.so", 0x554074, gg.TYPE_FLOAT, "9999")
+local Hack_14 = gg.setMemory("libgame.so", 0xC35234, gg.TYPE_FLOAT, "9999")
 btn_14 = "[ 🔵 ]"
 function MENU14()
 if (btn_14 == "[ 🔵 ]") then
